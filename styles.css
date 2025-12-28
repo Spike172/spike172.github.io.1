@@ -92,7 +92,7 @@
 button {
   border-radius: 100px;
   border-style: solid;
-  border-color: #aaa;
+  border-color: #fff;
   border-width: 10px;
   background-color: #eee;
   height: 4em;
@@ -122,4 +122,13 @@ button:active {
   justify-content: center;
   align-item: center;
   flex: 1 1 200px;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-item: center;
+  vertical-align: top;
 }
