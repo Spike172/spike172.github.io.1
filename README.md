@@ -1,4 +1,4 @@
-### HI, This is the start of my git pages home
+# HI, This is the start of my git pages home
 ## I will be doing stuff here
-# Idk what else to say
+### Idk what else to say
 :)
