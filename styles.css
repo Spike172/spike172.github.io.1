@@ -158,7 +158,7 @@ button:active {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #035a3a;
+  background-color: #04b9a7;
   color: #fff;
   cursor: default;
 }
