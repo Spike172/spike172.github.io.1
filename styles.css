@@ -135,11 +135,14 @@ button:active {
 .topnav {
   background-color: #ffffff;
   overflow: hidden;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
+  display: block;
   color: #323232;
   text-align: center;
   padding: 14px 16px;
