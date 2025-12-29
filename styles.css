@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 .buttonStyle1 {
 	border: solid 10px #ddd;
 	border-radius: 100px;
