@@ -133,14 +133,14 @@ button:active {
 /* Navigation bar */
 
 .topnav {
-  background-color: #333;
+  background-color: #ffffff;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #fff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -155,6 +155,6 @@ button:active {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #000;
+  color: #04AA6D;
 }
