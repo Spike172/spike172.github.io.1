@@ -25,7 +25,7 @@
 <a href="#news">News</a>
 <a href="#contact">Contact</a>
 <a href="#about">About</a>
-<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+<a href="javascript:void(0);" class="icon" onclick="showmenu()">
   <i class="fa fa-bars"></i>
 
 </div>
@@ -40,21 +40,13 @@
 </div>
 
 <script>
-    function myFunction() {
-  document.getElementById("topnav_main").classList.toggle("show");
-}
-
-    /* Close the dropdown if the user clicks outside of it */
-    window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("topnav_main");
-        for (var i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
+    function showmenu() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
         }
-        }
-    }
     }
 </script>
 
