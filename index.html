@@ -41,13 +41,13 @@
 
 <script>
     function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
+  document.getElementById("topnav_main").classList.toggle("show");
 }
 
     /* Close the dropdown if the user clicks outside of it */
     window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var dropdowns = document.getElementsByClassName("topnav_main");
         for (var i = 0; i < dropdowns.length; i++) {
         var openDropdown = dropdowns[i];
         if (openDropdown.classList.contains('show')) {
