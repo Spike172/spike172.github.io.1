@@ -25,72 +25,84 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: normal;
+  color: black;
 }
 
 .roboto-light {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
+  color: black;
 }
 
 .roboto-regular {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: black;
 }
 
 .roboto-medium {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
+  color: black;
 }
 
 .roboto-bold {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
+  color: black;
 }
 
 .roboto-black {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-style: normal;
+  color: black;
 }
 
 .roboto-thin-italic {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: italic;
+  color: black;
 }
 
 .roboto-light-italic {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: italic;
+  color: black;
 }
 
 .roboto-regular-italic {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: italic;
+  color: black;
 }
 
 .roboto-medium-italic {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: italic;
+  color: black;
 }
 
 .roboto-bold-italic {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: italic;
+  color: black;
 }
 
 .roboto-black-italic {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-style: italic;
+  color: black;
 }
 
 button {
